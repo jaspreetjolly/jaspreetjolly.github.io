@@ -26,4 +26,3 @@ As a **Microsoft Certified Trainer (MCT)** and **Prosci® Change Practitioner**,
 📧 **Email:** [Jaspreet Singh Jolly](mailto:jaspreet.jolly@hotmail.com)  
 🔗 **LinkedIn:** [Jaspreet Singh Jolly](https://www.linkedin.com/in/jaspreetjolly/)  
 🐦 **Twitter:** [@JaspreetSinghJolly](https://twitter.com/JaspreetJolly1)
----
