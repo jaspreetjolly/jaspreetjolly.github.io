@@ -1,6 +1,4 @@
 ---
-layout: page
-title: About
 ---
 
 ## Infrastructure Consultant · Modern Work Specialist · AI Enthusiast · Writer
