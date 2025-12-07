@@ -1,7 +1,6 @@
 ---
 layout: page
 title: About
-permalink: /about/
 ---
 
 **Infrastructure Consultant · Modern Work Specialist · AI Enthusiast · Writer**
@@ -29,4 +28,3 @@ As a **Microsoft Certified Trainer (MCT)** and **Prosci® Change Practitioner**,
 🐦 **Twitter:** [@JaspreetJolly1](https://twitter.com/JaspreetJolly1)
 
 ---
-Made with care · Light palette
