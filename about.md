@@ -1,8 +1,10 @@
 ---
+layout: page
+title: About Me
+---
 
 ## Infrastructure Consultant · Modern Work Specialist · AI Enthusiast · Writer
-
-# About Me
+---
 
 I am a Senior Solution Engineer with 22+ years of experience helping enterprises modernise their workplace, strengthen security, and accelerate productivity using Microsoft 365, Azure, and AI.
 
