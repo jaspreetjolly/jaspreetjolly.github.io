@@ -4,11 +4,6 @@ title: About
 permalink: /about/
 ---
 
-<!-- Profile Photo (top-left) -->
-![Jaspreet Singh Jolly](/assets/images/your-photo.jpg){: style="width:110px;border-radius:18px;float:left;margin-right:18px;margin-top:8px;" }
-
-
-
 **Infrastructure Consultant · Modern Work Specialist · AI Enthusiast · Writer**
 
 ---
