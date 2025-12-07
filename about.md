@@ -1,5 +1,4 @@
 ---
----
 
 ## Infrastructure Consultant · Modern Work Specialist · AI Enthusiast · Writer
 
