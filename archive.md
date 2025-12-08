@@ -4,15 +4,16 @@ title: Archive
 permalink: /archive/
 ---
 
-# Archive
+{% assign postsByYear = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
 
-{% for post in site.posts %}
-  {% capture year %}{{ post.date | date: "%Y" }}{% endcapture %}
-  {% if year != current_year %}
-  {% assign current_year = year %}
-  
-  ## {{ current_year }}
-  {% endif %}
-
-- {{ post.date | date: "%B %d" }} — <a href="{{ post.url }}">{{ post.title }}</a>
+{% for year in postsByYear %}
+### {{ year.name }}
+<ul>
+  {% for post in year.items %}
+    <li>
+      {{ post.date | date: "%B %d" }} —
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
 {% endfor %}
