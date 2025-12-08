@@ -1,7 +1,7 @@
 ﻿---
 layout: post
 #title: Restrict Access to Office365
-
+categories: [archive]
 ---
 In my capacity as Technical Specialist for Productivity solutions , I meet many customers who want to move their Productivity workloads to cloud but at the same time are concerned about data security and sovereignty. These security concerns lead to requirements around restricted access. Often the underlying need behind such requirements is to mitigate risk of data leakage by ensuring only authorized clients, applications that do not cache data, or devices that can be disabled remotely can get access to resources.
 
