@@ -2,9 +2,8 @@
 layout: post
 title: Right Encryption Key Management for Your Microsoft 365
 archive: false
-
-![M365 Keys]( /images/Encryption.jpg )
 ---
+![M365 Keys]( /images/Encryption.jpg )
 
 ## 🔐 Taking Control: Choosing the Right Encryption Key Management for Your Microsoft 365 Data
 
@@ -124,6 +123,7 @@ For **99% of Microsoft 365 data**, choose:
 Use **DKE** and **HYOK** only for **exceptionally sensitive content** where functionality can be sacrificed for complete isolation.
 
 ---
+
 
 
 
