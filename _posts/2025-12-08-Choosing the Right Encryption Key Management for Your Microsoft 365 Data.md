@@ -1,4 +1,4 @@
-# 🔐 Taking Control: Choosing the Right Encryption Key Management for Your Microsoft 365 Data
+## 🔐 Taking Control: Choosing the Right Encryption Key Management for Your Microsoft 365 Data
 
 In today’s cloud-first world, protecting your organization’s data is non-negotiable. For Microsoft 365 customers, a key part of that protection is *how your encryption keys are managed*. Microsoft offers multiple models for Rights Management Services (RMS), each balancing control, compliance, and cloud productivity differently.
 
@@ -102,12 +102,7 @@ Same restrictions as DKE — cloud services cannot function:
 
 # 🎯 Productivity Impact Summary
 
-| Key Management Model | Key Custody | Microsoft 365 Decryption/Indexing | Copilot, Search, eDiscovery |
-|----------------------|-------------|----------------------------------|-----------------------------|
-| **MMK (Default)**    | Microsoft   | ✅ Yes                           | ✅ Fully Functional         |
-| **BYOK**             | Customer (Key Vault) | ✅ Yes                  | ✅ Fully Functional         |
-| **DKE**              | Customer (Dual Keys) | ❌ No                   | ❌ Not Functional           |
-| **HYOK**             | Customer (On-Prem) | ❌ No                   | ❌ Not Functional           |
+![](/images/M365 Keys.jpg)
 
 ---
 
@@ -121,4 +116,5 @@ For **99% of Microsoft 365 data**, choose:
 Use **DKE** and **HYOK** only for **exceptionally sensitive content** where functionality can be sacrificed for complete isolation.
 
 ---
+
 
