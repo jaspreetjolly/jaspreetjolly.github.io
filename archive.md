@@ -1,3 +1,4 @@
+
 ---
 layout: page
 title: Archive
@@ -6,13 +7,16 @@ permalink: /archive/
 
 # Archive
 
-A chronological list of all posts.
+{% assign postsByYear = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
 
+{% for year in postsByYear %}
+## {{ year.name }}
 <ul>
-  {% for post in site.posts %}
+  {% for post in year.items %}
     <li>
-      <span>{{ post.date | date: "%B %d, %Y" }}</span> —
+      {{ post.date | date: "%B %d" }} —
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>
+{% endfor %}
