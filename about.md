@@ -59,6 +59,6 @@ If you want to explore Modern Work transformation, AI strategy, or cloud enablem
 
 ## Contact
 
-📧 **Email:** [jaspreet.jolly@hotmail.com](mailto:jaspreet.jolly@hotmail.com)  
+📧 **Email:** [Jaspreet Singh Jolly](mailto:jaspreet.jolly@hotmail.com)  
 🔗 **LinkedIn:** [Jaspreet Singh Jolly](https://www.linkedin.com/in/jaspreetjolly/)  
 🐦 **Twitter:** [@JaspreetJolly1](https://twitter.com/JaspreetJolly1)
