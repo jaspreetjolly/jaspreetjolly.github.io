@@ -1,27 +1,19 @@
-<hr>
-
-<h2>Mindmaps</h2>
-
-<ul id="mindmaps" class="mindmap-list"></ul>
-
 <script>
-// Fetch list of files from your Mindmaps repo
-fetch("https://api.github.com/repos/jaspreetjolly/<mindmap>/contents")
+fetch("https://api.github.com/repos/jaspreetjolly/mindmap/contents")
   .then(response => response.json())
   .then(files => {
     const container = document.getElementById("mindmaps");
 
     files.forEach(file => {
-      // Only show HTML mindmap files
-      if (file.name.endsWith(".html")) {
+      if (file.name.endsWith(".html") && file.name !== "index.html") {
         const listItem = document.createElement("li");
         listItem.className = "mindmap-item";
 
         listItem.innerHTML = `
           <div class="mindmap-card">
             <h3>
-              <a href="https://jaspreetjolly.github.io/<mindmap>/${file.name}">
-                ${file.name.replace('.html','').replace(/-/g,' ')}
+              <a href="https://jaspreetjolly.github.io/mindmap/${file.name}">
+                ${file.name.replace('.html', '').replace(/-/g, ' ')}
               </a>
             </h3>
           </div>
@@ -30,5 +22,6 @@ fetch("https://api.github.com/repos/jaspreetjolly/<mindmap>/contents")
         container.appendChild(listItem);
       }
     });
-  });
+  })
+  .catch(err => console.error("GitHub API error", err));
 </script>
