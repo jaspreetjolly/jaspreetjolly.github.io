@@ -102,7 +102,7 @@ Same restrictions as DKE — cloud services cannot function:
 
 # 🎯 Productivity Impact Summary
 
-![](/images/M365 Keys.jpg)
+![](images/M365 Keys.jpg)
 
 ---
 
@@ -116,5 +116,6 @@ For **99% of Microsoft 365 data**, choose:
 Use **DKE** and **HYOK** only for **exceptionally sensitive content** where functionality can be sacrificed for complete isolation.
 
 ---
+
 
 
