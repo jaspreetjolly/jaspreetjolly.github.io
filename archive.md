@@ -4,16 +4,32 @@ title: Archive
 permalink: /archive/
 ---
 
-{% assign postsByYear = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+<h1>Archive</h1>
 
-{% for year in postsByYear %}
-### {{ year.name }}
-<ul>
-  {% for post in year.items %}
+{% assign this_year = site.time | date: "%Y" %}
+{% assign current_year = "" %}
+
+{% for post in site.posts %}
+  {% assign post_year = post.date | date: "%Y" %}
+
+  {%- comment -%}
+  Skip posts from the current year (2025)
+  {%- endcomment -%}
+  {% if post_year == this_year %}
+    {% continue %}
+  {% endif %}
+
+  {% if post_year != current_year %}
+    {% unless current_year == "" %}
+    {% endunless %}
+  <h2>{{ post_year }}</h2>
+    {% assign current_year = post_year %}
+  {% endif %}
+
+  <ul>
     <li>
-      {{ post.date | date: "%B %d" }} —
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      {{ post.date | date: "%B %d" }} — 
+      <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
-  {% endfor %}
-</ul>
+  </ul>
 {% endfor %}
