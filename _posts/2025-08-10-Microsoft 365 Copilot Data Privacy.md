@@ -131,40 +131,19 @@ Customers can access SOC 2, ISO 42001, GDPR guidance, and more through the **Mic
 | **Glossary** | [Microsoft Licensing Glossary](https://www.microsoft.com/licensing/terms/product/Glossary/all) | Definitions for licensing and contractual terminology. |
 | **Copyright Protection** | [Customer Copyright Commitment](https://learn.microsoft.com/legal/cognitive-services/openai/customer-copyright-commitment) | Microsoft’s legal defence commitment for Copilot users. |
 | **Responsible AI Transparency** | [Transparency Note for Microsoft 365 Copilot](https://learn.microsoft.com/en-us/copilot/microsoft-365/microsoft-365-copilot-transparency-note) | Detailed insights into Copilot’s architecture and data handling. |
-| **SOC 2** | *[SOC 2 Report – Microsoft 365 Central Services (Sept 2024)]* (https://servicetrust.microsoft.com/DocumentPage/b369c903-12a0-406d-8a25-ea7c61b3a42e) | Independent audit of Microsoft 365 & Copilot controls. |
-| **ISO 42001 Certification** | *Microsoft 365 – ISO 42001:2023 Certificate (2025–2028)* | Certification for AI governance and operational controls. |
-| **ISO Audit Report** | *Microsoft 365 Copilot – ISO 42001 Audit Report (March 2025)* | Third-party audit confirming compliance. |
-| **GDPR Compliance** | *GDPR & Generative AI – Customer Guide (May 2024)* | Guidance for GDPR-compliant use of Copilot. |
-| **DPA Summary** | *Overview of Microsoft’s DPA Commitments* | Summary of contractual data protection terms. |
+| **SOC 2** | [SOC 2 Report – Microsoft 365 Central Services (Sept 2024)](https://servicetrust.microsoft.com/DocumentPage/b369c903-12a0-406d-8a25-ea7c61b3a42e) | Independent audit of Microsoft 365 & Copilot controls. |
+| **ISO 42001 Certification** | [Microsoft 365 – ISO 42001:2023 Certificate (2025–2028)](https://servicetrust.microsoft.com/DocumentPage/fa25a425-6a46-4b1f-82ee-b41c5515642f) | Certification for AI governance and operational controls. |
+| **ISO Audit Report** | [Microsoft 365 Copilot – ISO 42001 Audit Report (March 2025)](https://servicetrust.microsoft.com/DocumentPage/227a27b7-30c5-4110-8c8b-eb57a113e10f) | Third-party audit confirming compliance. |
+| **GDPR Compliance** | [GDPR & Generative AI – Customer Guide (May 2024)](https://1drv.ms/b/c/8c8bac0a56aaf953/EYIt6pPA7NFOoKEwUpHjOQIBySFzFUlqHbUiGW4Ghg5lhQ?e=bIAn6v) | Guidance for GDPR-compliant use of Copilot. |
+| **DPA Summary** | [Overview of Microsoft’s DPA Commitments](https://www.microsoft.com/licensing/docs/view/Microsoft-Products-and-Services-Data-Protection-Addendum-DPA?lang=1&assetType=283) | Summary of contractual data protection terms. |
 
----
-
-# 📚 Recommended Reading (Sidebar)
-
-> ### **Recommended Reading**
-> - **Transparency Note for Microsoft 365 Copilot**  
->   Learn how LLMs are integrated with Microsoft 365 apps.  
->   https://learn.microsoft.com/en-us/copilot/microsoft-365/microsoft-365-copilot-transparency-note  
->
-> - **Microsoft DPA (Data Protection Addendum)**  
->   Contractual data protection obligations for enterprise customers.  
->   https://www.microsoft.com/licensing/docs/view/Microsoft-Products-and-Services-Data-Protection-Addendum-DPA  
->
-> - **Customer Copyright Commitment**  
->   Microsoft's legal protection for customers using AI-generated content.  
->   https://learn.microsoft.com/legal/cognitive-services/openai/customer-copyright-commitment  
->
-> - **How Copilot Protects Against Harmful or Unsafe Content**  
->   https://learn.microsoft.com/en-us/copilot/microsoft-365/microsoft-365-copilot-privacy  
->
-> - **GDPR & Generative AI Guidance**  
->   https://learn.microsoft.com/legal/gdpr/generative-ai  
 
 ---
 
 # **Conclusion**
 
 Microsoft 365 Copilot empowers organisations with AI-driven productivity while maintaining enterprise-grade **privacy**, **security**, and **compliance** standards. With contractual assurances, technical safeguards, and global certifications, Microsoft ensures that Copilot is a trustworthy solution for organisations worldwide.
+
 
 
 
