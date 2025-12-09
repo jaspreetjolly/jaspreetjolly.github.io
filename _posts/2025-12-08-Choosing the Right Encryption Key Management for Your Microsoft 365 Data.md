@@ -4,6 +4,8 @@ title: Right Encryption Key Management for Your Microsoft 365
 archive: false
 ---
 
+![M365 Keys]( /images/Encryption%20Blog%20Top%20image.jpg )
+
 ## 🔐 Taking Control: Choosing the Right Encryption Key Management for Your Microsoft 365 Data
 
 In today’s cloud-first world, protecting your organization’s data is non-negotiable. For Microsoft 365 customers, a key part of that protection is *how your encryption keys are managed*. Microsoft offers multiple models for Rights Management Services (RMS), each balancing control, compliance, and cloud productivity differently.
@@ -122,6 +124,7 @@ For **99% of Microsoft 365 data**, choose:
 Use **DKE** and **HYOK** only for **exceptionally sensitive content** where functionality can be sacrificed for complete isolation.
 
 ---
+
 
 
 
