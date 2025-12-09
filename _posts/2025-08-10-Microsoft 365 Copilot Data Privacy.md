@@ -131,7 +131,7 @@ Customers can access SOC 2, ISO 42001, GDPR guidance, and more through the **Mic
 | **Glossary** | [Microsoft Licensing Glossary](https://www.microsoft.com/licensing/terms/product/Glossary/all) | Definitions for licensing and contractual terminology. |
 | **Copyright Protection** | [Customer Copyright Commitment](https://learn.microsoft.com/legal/cognitive-services/openai/customer-copyright-commitment) | Microsoft’s legal defence commitment for Copilot users. |
 | **Responsible AI Transparency** | [Transparency Note for Microsoft 365 Copilot](https://learn.microsoft.com/en-us/copilot/microsoft-365/microsoft-365-copilot-transparency-note) | Detailed insights into Copilot’s architecture and data handling. |
-| **SOC 2** | *SOC 2 Report – Microsoft 365 Central Services (Sept 2024)* | Independent audit of Microsoft 365 & Copilot controls. |
+| **SOC 2** | *[SOC 2 Report – Microsoft 365 Central Services (Sept 2024)]* (https://servicetrust.microsoft.com/DocumentPage/b369c903-12a0-406d-8a25-ea7c61b3a42e) | Independent audit of Microsoft 365 & Copilot controls. |
 | **ISO 42001 Certification** | *Microsoft 365 – ISO 42001:2023 Certificate (2025–2028)* | Certification for AI governance and operational controls. |
 | **ISO Audit Report** | *Microsoft 365 Copilot – ISO 42001 Audit Report (March 2025)* | Third-party audit confirming compliance. |
 | **GDPR Compliance** | *GDPR & Generative AI – Customer Guide (May 2024)* | Guidance for GDPR-compliant use of Copilot. |
@@ -165,5 +165,6 @@ Customers can access SOC 2, ISO 42001, GDPR guidance, and more through the **Mic
 # **Conclusion**
 
 Microsoft 365 Copilot empowers organisations with AI-driven productivity while maintaining enterprise-grade **privacy**, **security**, and **compliance** standards. With contractual assurances, technical safeguards, and global certifications, Microsoft ensures that Copilot is a trustworthy solution for organisations worldwide.
+
 
 
