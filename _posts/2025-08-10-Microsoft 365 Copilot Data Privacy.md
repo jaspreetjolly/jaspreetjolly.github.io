@@ -4,6 +4,7 @@ As organisations accelerate their adoption of AI-powered productivity tools, **d
 
 This blog outlines the **legal, technical, and compliance foundations** that safeguard how Copilot operates inside Microsoft 365 environments, referencing Microsoft’s most recent commitments and certifications.
 
+<!--more-->
 ---
 
 ## 1. Data Residency and Processing
@@ -164,4 +165,5 @@ Customers can access SOC 2, ISO 42001, GDPR guidance, and more through the **Mic
 # **Conclusion**
 
 Microsoft 365 Copilot empowers organisations with AI-driven productivity while maintaining enterprise-grade **privacy**, **security**, and **compliance** standards. With contractual assurances, technical safeguards, and global certifications, Microsoft ensures that Copilot is a trustworthy solution for organisations worldwide.
+
 
