@@ -1,6 +1,6 @@
 ﻿---
 layout: post
-title: Right Encryption Key Management for Your Microsoft 365 Data
+title: Choosing the Right Encryption Key Model in Microsoft 365
 archive: false
 ---
 
@@ -155,6 +155,7 @@ For **99% of Microsoft 365 data**, choose:
 Use **DKE** and **HYOK** only for **exceptionally sensitive content** where functionality can be sacrificed for complete isolation.
 
 ---
+
 
 
 
