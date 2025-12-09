@@ -6,8 +6,6 @@ archive: false
 
 ![Copilot Data Protection]( /images/Copilot%20Data%20Protection.jpg )
 
-
-
 # Microsoft 365 Copilot: Data Privacy & Security Commitments
 
 As organisations accelerate their adoption of AI-powered productivity tools, **data privacy and security remain paramount**. Microsoft 365 Copilot is engineered to meet the highest enterprise-grade standards, ensuring customer data is protected *by design* and *by contract*.  
@@ -153,6 +151,7 @@ Customers can access SOC 2, ISO 42001, GDPR guidance, and more through the **Mic
 # **Conclusion**
 
 Microsoft 365 Copilot empowers organisations with AI-driven productivity while maintaining enterprise-grade **privacy**, **security**, and **compliance** standards. With contractual assurances, technical safeguards, and global certifications, Microsoft ensures that Copilot is a trustworthy solution for organisations worldwide.
+
 
 
 
