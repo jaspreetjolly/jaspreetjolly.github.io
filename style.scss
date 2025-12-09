@@ -131,7 +131,6 @@ img {
 }
 
 // Nicolas Gallagher's micro clearfix hack
-// http://nicolasgallagher.com/micro-clearfix-hack/
 .clearfix:before,
 .clearfix:after {
     content: " ";
@@ -212,7 +211,7 @@ img {
 
 nav {
   float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
+  margin-top: 23px;
   font-family: $helveticaNeue;
   font-size: 18px;
 
@@ -283,8 +282,6 @@ footer {
   text-align: center;
 }
 
-// Settled on moving the import of syntax highlighting to the bottom of the CSS
-// ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
 
@@ -341,7 +338,7 @@ nav ul li a:hover {
   background: #e3e7ef;
 }
 
-/* Blog Post Cards */
+/* Blog Post (Full Page View) */
 .post {
   max-width: 900px;
   background: #fff;
@@ -375,3 +372,56 @@ footer {
   color: #777;
 }
 
+/* --------------------------------------------------------
+   Homepage Blog Grid (Overrides old Jekyll Now layout)
+   -------------------------------------------------------- */
+
+.posts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+  margin: 40px auto;
+  max-width: 1100px;
+}
+
+.post-card {
+  background: #fff;
+  padding: 20px 24px;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+  transition: all 0.25s ease;
+}
+
+.post-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+.post-title a {
+  font-size: 1.35rem;
+  text-decoration: none;
+  color: #222;
+}
+
+.post-title a:hover {
+  color: #0366d6;
+}
+
+.post-excerpt {
+  margin-top: 12px;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.read-more {
+  display: inline-block;
+  margin-top: 14px;
+  color: #0366d6;
+  font-weight: bold;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.read-more:hover {
+  text-decoration: underline;
+}
