@@ -426,7 +426,54 @@ footer {
   text-decoration: underline;
 }
 
-body {
-  border: 10px solid red !important;
+/* --------------------------------------------------------
+   Vertical Post List (Homepage)
+   -------------------------------------------------------- */
+
+.post-list {
+  max-width: 900px;
+  margin: 40px auto;
 }
 
+.post-preview {
+  background: #fff;
+  padding: 22px 28px;
+  border-radius: 12px;
+  margin-bottom: 28px;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.06);
+  transition: 0.2s ease;
+}
+
+.post-preview:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+}
+
+.post-title a {
+  font-size: 1.4rem;
+  color: #222;
+  text-decoration: none;
+}
+
+.post-title a:hover {
+  color: #0078d4;
+}
+
+.post-meta {
+  color: #777;
+  font-size: 0.85rem;
+  margin-top: -5px;
+}
+
+.post-excerpt {
+  color: #444;
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+.read-more {
+  display: inline-block;
+  margin-top: 12px;
+  font-weight: bold;
+  color: #0078d4;
+}
