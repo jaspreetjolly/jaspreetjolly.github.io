@@ -2,21 +2,26 @@
 layout: default
 ---
 
-<div class="posts-grid">
+<div class="post-list">
   {% for post in site.posts %}
     {% unless post.categories contains "archive" %}
-      <div class="post-card">
 
+      <article class="post-preview">
         <h2 class="post-title">
           <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
         </h2>
+
+        <p class="post-meta">
+          {{ post.date | date: "%B %-d, %Y" }}
+        </p>
 
         <p class="post-excerpt">
           {{ post.excerpt }}
         </p>
 
-        <a href="{{ post.url | relative_url }}" class="read-more">Read More →</a>
-      </div>
+        <a class="read-more" href="{{ post.url | relative_url }}">Read More →</a>
+      </article>
+
     {% endunless %}
   {% endfor %}
 </div>
