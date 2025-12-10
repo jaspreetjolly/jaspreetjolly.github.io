@@ -8,7 +8,10 @@ layout: default
 
       <article class="post-preview">
         <h2 class="post-title">
-          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          <a href="{% if post.title == 'My Mindmaps' %}/mindmap{% else %}{{ post.url | relative_url }}{% endif %}">
+  {{ post.title }}
+</a>
+
         </h2>
 
         <p class="post-meta">
@@ -19,7 +22,14 @@ layout: default
           {{ post.excerpt }}
         </p>
 
-        <a class="read-more" href="{{ post.url | relative_url }}">Read More →</a>
+      <a class="read-more" href="{% if post.title == 'My Mindmaps' %}/mindmap{% else %}{{ post.url | relative_url }}{% endif %}">
+  {% if post.title == 'My Mindmaps' %}
+    Open Mindmaps →
+  {% else %}
+    Read More →
+  {% endif %}
+</a>
+
       </article>
 
     {% endunless %}
