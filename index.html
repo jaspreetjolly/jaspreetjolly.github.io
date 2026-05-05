@@ -8,10 +8,12 @@ layout: default
 
       {% assign title_normalized = post.title | strip | downcase %}
 
-      {% if title_normalized == 'my mindmaps' %}
+      {% if title_normalized == 'my mind maps' %}
         {% assign post_link = '/mindmap/' %}
       {% elsif title_normalized == 'copilot prompt flow' %}
         {% assign post_link = '/Projects/HubSpoke-narrated_Anthropic%20updated.html' %}
+      {% elsif title_normalized == 'copilot unpacked' %}
+        {% assign post_link = '/Projects/copilot_unpacked.html' %}
       {% else %}
         {% assign post_link = post.url | relative_url %}
       {% endif %}
@@ -30,10 +32,12 @@ layout: default
         </p>
 
         <a class="read-more" href="{{ post_link }}">
-          {% if title_normalized == 'my mindmaps' %}
+          {% if title_normalized == 'my mind maps' %}
             Open Mindmaps →
           {% elsif title_normalized == 'copilot prompt flow' %}
             Open Prompt Flow →
+          {% elsif title_normalized == 'copilot unpacked' %}
+            Open Copilot Unpacked →
           {% else %}
             Read More →
           {% endif %}
