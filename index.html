@@ -6,9 +6,11 @@ layout: default
   {% for post in site.posts %}
     {% unless post.categories contains "archive" %}
 
-      {% if post.title == 'My Mindmaps' %}
+      {% assign title_normalized = post.title | strip | downcase %}
+
+      {% if title_normalized == 'my mindmaps' %}
         {% assign post_link = '/mindmap/' %}
-      {% elsif post.title == 'Copilot prompt flow' %}
+      {% elsif title_normalized == 'copilot prompt flow' %}
         {% assign post_link = '/Projects/HubSpoke-narrated_Anthropic%20updated.html' %}
       {% else %}
         {% assign post_link = post.url | relative_url %}
@@ -28,9 +30,9 @@ layout: default
         </p>
 
         <a class="read-more" href="{{ post_link }}">
-          {% if post.title == 'My Mindmaps' %}
+          {% if title_normalized == 'my mindmaps' %}
             Open Mindmaps →
-          {% elsif post.title == 'Copilot prompt flow' %}
+          {% elsif title_normalized == 'copilot prompt flow' %}
             Open Prompt Flow →
           {% else %}
             Read More →
