@@ -1,0 +1,1 @@
+<iframe src="https://blogs.jaspreetjolly.com/Projects/HubSpoke-narrated_Anthropic%20updated.html" width="100%" height="600" frameborder="0" allowfullscreen title="Mindmap" > </iframe>
